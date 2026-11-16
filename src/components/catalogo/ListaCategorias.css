@@ -1,0 +1,42 @@
+.catalogo-categorias-seccion {
+  padding: 2.5rem 1.5rem;
+  max-width: 1360px;
+  margin: 0 auto;
+  font-family: var(--sazon-fuente-principal);
+}
+
+.catalogo-categorias-seccion__titulo {
+  color: var(--sazon-texto-principal);
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.75rem;
+  text-align: left;
+}
+
+.catalogo-categorias-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.catalogo-categorias-estado {
+  text-align: center;
+  color: var(--sazon-texto-secundario);
+  padding: 2rem;
+}
+
+@media (max-width: 1100px) {
+  .catalogo-categorias-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .catalogo-categorias-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
