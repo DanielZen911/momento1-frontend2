@@ -1,0 +1,24 @@
+:root {
+ 
+  --sazon-fondo: #0e3b1f;
+  --sazon-superficie: #154728;
+  --sazon-superficie-hover: #1b5732;
+  --sazon-primario: #449e48;
+  --sazon-primario-hover: #52b756;
+  --sazon-texto-principal: #ffffff;
+  --sazon-texto-secundario: #a3c4ae;
+  --sazon-borde: rgba(255, 255, 255, 0.08);
+
+  
+  --sazon-fuente-principal: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --sazon-radio-borde: 16px;
+  --sazon-sombra: 0 8px 20px rgba(0, 0, 0, 0.25);
+  --sazon-transicion: all 0.25s ease-in-out;
+}
+
+body {
+  background-color: var(--sazon-fondo);
+  color: var(--sazon-texto-principal);
+  margin: 0;
+  font-family: var(--sazon-fuente-principal);
+}
